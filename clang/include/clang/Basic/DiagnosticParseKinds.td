@@ -249,7 +249,8 @@ def err_expected_lbrace_in_compound_literal : Error<
 def err_expected_while : Error<"expected 'while' in do/while loop">;
 
 def err_expected_semi_after_stmt : Error<"expected ';' after %0 statement">;
-def err_expected_semi_after_expr : Error<"expected ';' after expression">;
+// https://twitter.com/TartanLlama/status/1421492049430331393
+def err_expected_semi_after_expr : Error<"you KICK compiler? you kick her program like the `kill -9`? oh! oh! error for user! error for user for Ten Thousand Lines!!!!">;
 def err_extraneous_token_before_semi : Error<"extraneous '%0' before ';'">;
 
 def err_expected_semi_after_method_proto : Error<
